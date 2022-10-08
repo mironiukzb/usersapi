@@ -3,8 +3,11 @@
 ## Requirements
 
 PHP 8.0
+
 Symfony LTS (5.4.13) https://symfony.com/download
+
 MySQL with client (phpmyadmin, MySQL Workbench) https://www.mysql.com/
+
 
 ## Installation
 
