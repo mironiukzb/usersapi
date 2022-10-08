@@ -18,7 +18,9 @@ git clone git@github.com:mironiukzb/usersapi.git
 ```
 
 In .env file, change properties of database connection
-Set username, password, port, dataase_name
+
+Set username, password, port, database_name
+
 
 ```php
 DATABASE_URL="mysql://usename:password@127.0.0.1:3306/database_name?serverVersion=5.7"
@@ -45,5 +47,22 @@ Run project
 ```bash
 
 symfony serve:start
+```
+
+Available endpoints
+
+```php
+api/users
+
+api/users/create
+```
+
+If you have an issue with csrf protection, uncomment this block in src/Controller/Api/AbstractApiController
+
+```php
+$options = array_merge($options, [
+           'csrf_protection' => false,
+        ]);
+
 ```
 
