@@ -33,7 +33,7 @@ Create database
 php bin/console doctrine:database:create
 
 ```
-# Creating databse for attribute's mapping
+## Creating databse for attribute's mapping
 
 
 Run migrations (creating tables in database)
