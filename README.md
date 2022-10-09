@@ -44,6 +44,13 @@ php bin/console doctrine:migrations:migrate
 
 ```
 
+## Creating databse for YAML's mapping
+
+```bash
+
+php bin/console doctrine:schema:create
+
+```
 Run project
 
 ```bash
