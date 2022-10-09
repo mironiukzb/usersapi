@@ -33,7 +33,7 @@ Create database
 php bin/console doctrine:database:create
 
 ```
-## Creating databse for attribute's mapping
+## Creating database for attribute's mapping
 
 
 Run migrations (creating tables in database)
@@ -44,18 +44,21 @@ php bin/console doctrine:migrations:migrate
 
 ```
 
-## Creating databse for YAML's mapping
+## Creating database for YAML's mapping
 
 ```bash
 
 php bin/console doctrine:schema:create
 
 ```
-Run project
+In config/packages/doctrine.yaml file add 'type: yml' parameter in doctrine/orm/mapping/App
+
+## Runnig project
 
 ```bash
 
 symfony serve:start
+
 ```
 
 Available endpoints
